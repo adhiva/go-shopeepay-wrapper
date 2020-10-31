@@ -1,4 +1,4 @@
-go-shopeepay
+go-shopeepay-wrapper
 ===========
 
 A package for shopeepay wrapper client.
@@ -7,7 +7,7 @@ A package for shopeepay wrapper client.
 Make sure that Go is installed on your computer.
 Type the following command in your terminal:
 
-	go get github.com/misteraladin/go-shopeepay
+	go get github.com/adhiva/go-shopeepay-wrapper
 
 After it the package is ready to use.
 
@@ -15,12 +15,12 @@ After it the package is ready to use.
 #### Import package in your project
 Add following line in your `*.go` file:
 ```go
-import "github.com/misteraladin/go-shopeepay"
+import "github.com/adhiva/go-shopeepay-wrapper"
 ```
-If you are unhappy to use long `go-shopeepay`, you can do something like this:
+If you are unhappy to use long `go-shopeepay-wrapper`, you can do something like this:
 ```go
 import (
-  shopeepay "github.com/misteraladin/go-shopeepay"
+  shopeepay "github.com/adhiva/go-shopeepay-wrapper"
 )
 ```
 
